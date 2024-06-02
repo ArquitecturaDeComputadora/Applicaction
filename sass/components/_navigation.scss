@@ -1,0 +1,16 @@
+.navigation {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        color: $text-white;
+    }
+    &__user-photo{
+        width: 5rem;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        border: 0.2rem solid $secondary-color;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,45 @@
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 2rem;
+    color: $text-white;
+    &__logo{
+        width: 10rem;
+        grid-area: 1/1/3/2;
+        justify-self: end;
+    }
+    &__num-car{
+        margin: 0;
+        grid-area: 1/2/2/3;
+        align-self: center;
+        font-size: 7.4rem;
+    }
+    &__name-car {
+        grid-area: 2/2/3/3;
+        align-self: center;
+        font-size: 3.5rem;
+    }
+    &__enter-car{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.2rem 1.2rem;
+        margin-top: 2.5rem;
+        width: fit-content;
+        grid-area: 3/1/4/3;
+        justify-self: center;
+        border-radius: 1.2rem;
+        border: 0.25rem solid $secondary-color;
+        background: none;
+        color: $secondary-color;
+        cursor: pointer;
+        i {
+            font-size: 2.8rem;
+        }
+        span {
+            font-size: 1.2rem;
+        }
+        @include scaleButton();
+    }
+}

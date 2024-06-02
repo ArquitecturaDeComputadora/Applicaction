@@ -1,0 +1,11 @@
+.mis-carros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $secondary-color;
+    }
+}

@@ -1,0 +1,52 @@
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 32rem;
+    gap: 2rem;
+    &__head{
+        display: flex;
+        gap: 2rem;
+    }
+    &__logo{
+        width: 7rem;
+        order: 2;
+    }
+    &__title{
+        color: $white;
+    }
+    &__slogan{
+        color: $secondary-color;
+    }
+    &__car{
+        display: none;
+        @include respond-to('medium') {
+            display: block;
+            width: 90%;
+        }
+    }
+    @include respond-to('medium') {
+        justify-self: center;
+        order: 2;
+        min-width: 37.4rem;
+        max-width: 54rem;
+    }
+    @include respond-to('large') {
+        justify-self: start;
+    }
+
+    @include translateX();
+
+    &--translateX {
+        @include respond-to('medium') {
+            transform: translateX(-100%);
+        }
+        @include respond-to('large') {
+            transform: translateX(calc(-100% - 5rem));
+        }
+        @include translateX();
+    }
+}

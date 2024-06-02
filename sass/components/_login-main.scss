@@ -1,0 +1,107 @@
+.login-main {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 100%;
+    max-width: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    background-color: $white;
+    border: none;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    &__title {
+        color: $text-black;
+        width: 100%;
+    }
+    &__title-log-out {
+        @extend .login-main__title;
+        display: none;
+    }
+    &__social-medias {
+        display: flex;
+        flex-direction: column;
+        gap: 2.8rem;
+    }
+    &__subtitle {
+        color: $text-black;
+        text-align: center;
+        &--log-out{
+            display: none;
+        }
+    }
+    &__social-media {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    &__button {
+        @extend .button;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: $text-black;
+        img  {
+            width: 2rem;
+        }
+    }
+    &__create-account {
+        text-align: center;
+        a {
+            color: $text-black;
+            font-weight: bolder;
+        }
+    }
+    &__log-in {
+        @extend .login-main__create-account;
+        display: none;
+    }
+    @include respond-to('medium') {
+        order: 1;
+        margin: 0;
+        min-width: 37.4rem;
+        max-width: 54rem;
+    }
+    @include respond-to('large') {
+        justify-self: end;
+    }
+
+    @include translateX();
+
+    &--translateX {
+        @include respond-to('medium') {
+            transform: translateX(100%);
+        }
+        @include respond-to('large') {
+            transform: translateX(calc(100% + 5rem));
+        }
+        @include translateX();
+
+        .login-main__create-account {
+            display: none;
+        }
+        .login-main__log-in {
+            display: block;
+        }
+        .login-main__title {
+            display: none;
+        }
+        .login-main__title-log-out {
+            display: block;
+        }
+        .form--log-in {
+            display: none;
+        }
+        .form--log-out{
+            display: flex;
+        }
+        .login-main__subtitle--log-in {
+            display: none;
+        }
+        .login-main__subtitle--log-out {
+            display: block;
+        }
+    }
+}

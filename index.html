@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="home">
+    <main class="login">
+        <section class="login-header">
+            <div  class="login-header__head">
+                <img class="login-header__logo" src="../asset/img/logo.png" alt="">
+                <h1 class="login-header__title">Bienvenido a <br> ProtectYourCar</h1>
+            </div>
+            <h2  class="login-header__slogan">Tu auto seguro, tu vida tranquila.</h2>
+            <img class="login-header__car" src="../asset/img/car.png" alt="">
+        </section>
+        <section class="login-main">
+            <h3 class="login-main__title">Inicia Sesion</h3>
+            <h3 class="login-main__title-log-out">Registrate</h3>
+            <form class="form form--log-in">
+                <label class="form__label" for="email">
+                    <p class="form__p">Correo electronico:</p>
+                    <input class="form__input" type="email" id="email" name="email" autocomplete="email" required>
+                </label>
+                <label class="form__label" for="password">
+                    <p class="form__p">Contrasena:</p>
+                    <input class="form__input" type="password" id="password" name="password"required>
+                </label>
+                <a class="form__forgot-password" href="">Olvidaste la contrasena?</a>
+                <button class="form__submit" id="button-log-ing">Iniciar Sesión</button>
+            </form>
+            <form class="form form--log-out">
+                <label class="form__label" for="email">
+                    <p class="form__p">Correo electronico:</p>
+                    <input class="form__input" type="email" id="email" name="email" autocomplete="email" required>
+                </label>
+                <label class="form__label" for="username">
+                    <p class="form__p">Primer Nombre:</p>
+                    <input class="form__input" type="text" id="username" name="username" autocomplete="username" required>
+                </label>
+                <label class="form__label" for="lastname">
+                    <p class="form__p">Primer apellido:</p>
+                    <input class="form__input" type="text" id="lastname" name="lastname" autocomplete="lastname" required>
+                </label>
+                <label class="form__label" for="password">
+                    <p class="form__p">Contrasena:</p>
+                    <input class="form__input" type="password" id="password" name="password"required>
+                </label>
+                <label for="policy-terms">
+                    <input type="checkbox" name="policy-terms" id="policy-terms" required>
+                    <p>Yo accepto las <a href="">Politicas de privacidad</a> y los <a href="">Terminso del servicio</a></p>
+                </label>
+                <button class="form__submit">Registrarse</button>
+            </form>
+            <article class="login-main__social-medias">
+                <p class="login-main__subtitle login-main__subtitle--log-in">O Inicia Sesion con</p>
+                <p class="login-main__subtitle login-main__subtitle--log-out">O Registrate con</p>
+                <div class="login-main__social-media">
+                    <a class="login-main__button" href="">
+                        <img src="../asset/icon/google-icon.svg" alt="">
+                        Google
+                    </a>
+                    <a class="login-main__button" href="">
+                        <img src="../asset/icon/facebook-icon.svg" alt="">
+                        Facebook
+                    </a>
+                </div>
+            </article>
+            <p class="login-main__create-account">
+                No tienes cuenta?
+                <a id="log-out">Registrate</a>
+            </p>
+            <p class="login-main__log-in">
+                Tienes una cuenta?
+                <a id="log-in">Inicia sesion ahora</a>
+            </p>
+        </section>
+    </main>
+    <header class="header" style="display: none;">
+        <nav class="navigation">
+            <h2 class="navigation__title">Bienvenido de nuevo Pedro!</h2>
+            <img class="navigation__user-photo" src="./asset/img/perfil.png" alt="">
+        </nav>
+        <section class="banner">
+            <img class="banner__logo" src="./asset/img/logo.png" alt="">
+            <h1 class="banner__num-car">01</h1>
+            <h2 class="banner__name-car">Chevrolet</h2>
+            <button class="banner__enter-car">
+                <i class="bi bi-play"></i>
+                <span>INGRESAR</span>
+            </button>
+        </section>
+    </header>
+    <main class="mis-carros" style="display: none;">
+        <section class="mis-carros__header">
+            <i class="bi bi-pencil"></i>
+            <h3 class="mis-carros__title">MIS CARROS</h3>
+            <i class="bi bi-plus-lg"></i>
+        </section>
+        <section class="mis-carros__cards">
+            <article class="mis-carros__card">
+                <p class="mis-carros__number">1</p>
+            </article>
+        </section>
+    </main>
+    <div class="return" style="display: none;">
+        <i class="bi bi-arrow-left"></i>
+        <p>Cerrar sesion</p>
+    </div>
+    <script src="./source/index.js" type="module"></script>
+</body>
+</html>

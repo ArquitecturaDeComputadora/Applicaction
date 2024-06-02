@@ -1,0 +1,38 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    &__label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    label:nth-child(5){
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    &__p {
+        color: $text-black;
+    }
+    &__input {
+        @extend .button;
+        &:hover {
+            transform: none;
+        }
+    }
+    &__forgot-password {
+        text-align: center;
+        color: $text-black;
+    }
+    &__submit {
+        @extend .button;
+        background-color: $primary-color;
+        color: $text-white;
+    }
+    &--log-out {
+        display: none;
+    }
+}
