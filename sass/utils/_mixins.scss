@@ -12,7 +12,8 @@
 }
 
 @mixin m-h-1(){
-    font-size: 2.4rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 5.6rem;
     line-height: 120%;
     font-weight: 700;
     font-style: normal;
@@ -24,7 +25,8 @@
     }
 }
 @mixin m-h-2(){
-    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 4.8rem;
     line-height: 120%;
     font-weight: 700;
     font-style: normal;
@@ -36,7 +38,8 @@
     }
 }
 @mixin m-h-3(){
-    font-size: 1.8rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.2rem;
     line-height: 120%;
     font-weight: 700;
     font-style: normal;
@@ -48,7 +51,8 @@
     }
 }
 @mixin m-h-4(){
-    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
     line-height: 120%;
     font-weight: 700;
     font-style: normal;
@@ -60,7 +64,8 @@
     }
 }
 @mixin m-h-5(){
-    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
     line-height: 120%;
     font-weight: 700;
     font-style: normal;
@@ -72,7 +77,8 @@
     }
 }
 @mixin m-h-6(){
-    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
     line-height: 120%;
     font-weight: 700;
     font-style: normal;
@@ -84,7 +90,8 @@
     }
 }
 @mixin m-body-1(){
-    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
     line-height: 130%;
     font-weight: 400;
     font-style: normal;
@@ -93,7 +100,8 @@
     }
 }
 @mixin m-body-2(){
-    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
     line-height: 130%;
     font-weight: 400;
     font-style: normal;
@@ -102,7 +110,8 @@
     }
 }
 @mixin m-button-1(){
-    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.0rem;
     line-height: 2rem;
     font-weight: 400;
     font-style: normal;
@@ -111,7 +120,8 @@
     }
 }
 @mixin m-button-2(){
-    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
     line-height: 1.6rem;
     font-weight: 400;
     font-style: normal;
@@ -120,6 +130,7 @@
     }
 }
 @mixin m-button-3(){
+    font-family: "Poppins", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
     font-weight: 400;
@@ -129,7 +140,8 @@
     }
 }
 @mixin m-f-1(){
-    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
     line-height: 2.4rem;
     font-weight: 400;
     font-style: normal;
@@ -138,7 +150,8 @@
     }
 }
 @mixin m-f-2(){
-    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
     line-height: 1.6rem;
     font-weight: 400;
     font-style: normal;
@@ -147,6 +160,7 @@
     }
 }
 @mixin m-f-3(){
+    font-family: "Poppins", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
     font-weight: 400;
