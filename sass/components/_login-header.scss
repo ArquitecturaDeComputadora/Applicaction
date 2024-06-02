@@ -17,6 +17,7 @@
     }
     &__title{
         color: $white;
+        @include h-1();  
     }
     &__slogan{
         color: $secondary-color;

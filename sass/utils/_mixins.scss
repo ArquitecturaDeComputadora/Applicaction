@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 
-@mixin m-h-1(){
+@mixin h-1(){
     font-family: "Poppins", sans-serif;
     font-size: 5.6rem;
     line-height: 120%;
@@ -24,7 +24,7 @@
         font-size: 5.6rem;
     }
 }
-@mixin m-h-2(){
+@mixin h-2(){
     font-family: "Poppins", sans-serif;
     font-size: 4.8rem;
     line-height: 120%;
@@ -37,7 +37,7 @@
         font-size: 3.4rem;
     }
 }
-@mixin m-h-3(){
+@mixin h-3(){
     font-family: "Poppins", sans-serif;
     font-size: 3.2rem;
     line-height: 120%;
@@ -50,7 +50,7 @@
         font-size: 2.6rem;
     }
 }
-@mixin m-h-4(){
+@mixin h-4(){
     font-family: "Poppins", sans-serif;
     font-size: 2.4rem;
     line-height: 120%;
@@ -63,7 +63,7 @@
         font-size: 2rem;
     }
 }
-@mixin m-h-5(){
+@mixin h-5(){
     font-family: "Poppins", sans-serif;
     font-size: 1.8rem;
     line-height: 120%;
@@ -76,7 +76,7 @@
         font-size: 1.7rem;
     }
 }
-@mixin m-h-6(){
+@mixin h-6(){
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     line-height: 120%;
@@ -89,7 +89,7 @@
         font-size: 1.5rem;
     }
 }
-@mixin m-body-1(){
+@mixin body-1(){
     font-family: "Poppins", sans-serif;
     font-size: 1.8rem;
     line-height: 130%;
@@ -99,7 +99,7 @@
         font-size: 1.8rem;
     }
 }
-@mixin m-body-2(){
+@mixin body-2(){
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     line-height: 130%;
@@ -109,7 +109,7 @@
         font-size: 1.6rem;
     }
 }
-@mixin m-button-1(){
+@mixin button-1(){
     font-family: "Poppins", sans-serif;
     font-size: 2.0rem;
     line-height: 2rem;
@@ -119,7 +119,7 @@
         font-size: 2.0rem;
     }
 }
-@mixin m-button-2(){
+@mixin button-2(){
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     line-height: 1.6rem;
@@ -129,7 +129,7 @@
         font-size: 2.0rem;
     }
 }
-@mixin m-button-3(){
+@mixin button-3(){
     font-family: "Poppins", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
@@ -139,7 +139,7 @@
         font-size: 2.0rem;
     }
 }
-@mixin m-f-1(){
+@mixin f-1(){
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -149,7 +149,7 @@
         font-size: 1.6rem;
     }
 }
-@mixin m-f-2(){
+@mixin f-2(){
     font-family: "Poppins", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
@@ -159,7 +159,7 @@
         font-size: 1.8rem;
     }
 }
-@mixin m-f-3(){
+@mixin f-3(){
     font-family: "Poppins", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
