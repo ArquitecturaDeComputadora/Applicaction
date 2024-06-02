@@ -185,3 +185,10 @@
         transform: scale(1.1);
     }
 }
+
+@mixin borderButton(){
+    border-radius: 1.2rem;
+    border: 0.25rem solid $secondary-color;
+    background: none;
+    cursor: pointer;
+}
