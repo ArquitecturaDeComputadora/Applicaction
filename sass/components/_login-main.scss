@@ -14,10 +14,12 @@
     &__title {
         color: $text-black;
         width: 100%;
+        @include h-2(); 
     }
     &__title-log-out {
         @extend .login-main__title;
         display: none;
+        @include h-2(); 
     }
     &__social-medias {
         display: flex;
