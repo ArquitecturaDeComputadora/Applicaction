@@ -1,0 +1,9 @@
+.return {
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+    color: $text-white;
+    i {
+        cursor: pointer;
+    }
+}
