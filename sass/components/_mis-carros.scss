@@ -7,5 +7,13 @@
         justify-content: space-between;
         align-items: center;
         color: $secondary-color;
+        i{
+            padding: 0.5rem;
+            font-size: 2.4rem;
+            @include borderButton();
+        }
+    }
+    &__title{
+        text-align: center;
     }
 }
