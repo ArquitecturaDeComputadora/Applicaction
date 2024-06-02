@@ -6,4 +6,12 @@ body.home{
     justify-content: space-between;
     gap: 1.5rem;
     padding: 2rem;
+    @include respond-to('medium') {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr auto;
+        grid-template-areas:
+        "header main"
+        "back   main";
+    }
 }

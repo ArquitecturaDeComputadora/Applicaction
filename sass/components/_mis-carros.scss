@@ -51,4 +51,10 @@
         width: 100%;
         object-fit: cover;
     }
+    @include respond-to('medium') {
+        grid-area: main;
+        height: 100%;
+        max-height: calc(100vh - 4rem);
+        max-width: 53rem;
+    }
 }

@@ -6,4 +6,12 @@
     i {
         cursor: pointer;
     }
+    @include respond-to('medium') {
+        width: 100%;
+        grid-area: back;
+        height: min-content;
+        justify-content: start;
+        max-width: 53rem;
+        justify-self: end;
+    }
 }

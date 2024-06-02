@@ -345,6 +345,13 @@ ul {
   flex-direction: column;
   gap: 2rem;
 }
+@media (min-width: 768px) {
+  .header {
+    grid-area: header;
+    max-width: 53rem;
+    justify-self: end;
+  }
+}
 
 .login {
   display: grid;
@@ -374,6 +381,14 @@ body.home {
   justify-content: space-between;
   gap: 1.5rem;
   padding: 2rem;
+}
+@media (min-width: 768px) {
+  body.home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr auto;
+    grid-template-areas: "header main" "back   main";
+  }
 }
 
 .button, .form__submit, .form__input, .login-main__button {
@@ -657,16 +672,33 @@ body.home {
   grid-area: 1/1/3/2;
   justify-self: end;
 }
+@media (min-width: 768px) {
+  .banner__logo {
+    width: 25rem;
+  }
+}
 .banner__num-car {
   margin: 0;
   grid-area: 1/2/2/3;
   align-self: center;
   font-size: 7.4rem;
 }
+@media (min-width: 768px) {
+  .banner__num-car {
+    font-size: 16rem;
+    align-self: start;
+  }
+}
 .banner__name-car {
   grid-area: 2/2/3/3;
   align-self: center;
   font-size: 3.5rem;
+}
+@media (min-width: 768px) {
+  .banner__name-car {
+    font-size: 8rem;
+    align-self: start;
+  }
 }
 .banner__enter-car {
   display: flex;
@@ -696,6 +728,15 @@ body.home {
 .banner__enter-car:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+@media (min-width: 768px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 2rem;
+  }
 }
 
 .mis-carros {
@@ -762,6 +803,14 @@ body.home {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (min-width: 768px) {
+  .mis-carros {
+    grid-area: main;
+    height: 100%;
+    max-height: calc(100vh - 4rem);
+    max-width: 53rem;
+  }
+}
 
 .return {
   display: flex;
@@ -771,4 +820,15 @@ body.home {
 }
 .return i {
   cursor: pointer;
+}
+@media (min-width: 768px) {
+  .return {
+    width: 100%;
+    grid-area: back;
+    height: -moz-min-content;
+    height: min-content;
+    justify-content: start;
+    max-width: 53rem;
+    justify-self: end;
+  }
 }/*# sourceMappingURL=main.css.map */
